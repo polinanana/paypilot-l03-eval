@@ -50,10 +50,22 @@
 Прогноз до прогону: 
 P-007 - tool_sequence requires check_dispute_eligibility, and the bot skips it, DIS-006, DIS-007 - without a customer the bot can’t confirm the tier, P-002 - escalation instead of “offers to start a dispute
 
-Коміт із прогнозом: `<hash>`
-Що впало: <id>. Розбіжність із прогнозом: <чим пояснюється або «немає»>
+Коміт із прогнозом: 3551527
+Що впало: failed: DIS-006, DIS-007. Розбіжність із прогнозом: P-002 не впав, тому що перевіряв тон відповіді :)
+reports/golden-clean-20261105T115916.json
 
 
 Дефекти профілю `lesson-03` (D19, D20, D21, D22, D26):
-- зловив: <дефект → id кейсів>
-- пропустив: <дефект → чому набір його не бачить>
+- зловив:
+
+D19 → DIS-001, DIS-002-N, DIS-006; 
+
+D20 → FX-002, FX-003, FX-005, FX-003-S і GEN-002,
+
+D21 → GEN-001, FX-004
+
+D22 → LIM-003
+
+D26 → DIS-007
+- пропустив: всі спіймав :)
+
