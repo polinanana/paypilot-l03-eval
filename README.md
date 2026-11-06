@@ -41,7 +41,7 @@
 | --- | --- | --- | --- |
 | Baseline | `clean` | 29/29 passed | reports/golden-clean-20261105T112757.json |
 | Дефектна система | `lesson-03` | 17/29 | reports/golden-lesson-03-20261105T113718.json |
-| Зміна промпту | `clean` + рядок | <N/M> | `reports/…` |
+| Зміна промпту | `clean` + рядок | 27/29 | reports/golden-clean-20261105T115916.json |
 
 
 
